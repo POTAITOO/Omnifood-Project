@@ -1,0 +1,46 @@
+/*
+
+---01
+
+  SPACING SYSTEM (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+  FONT SIZE SYSTEM (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+  font weights
+  100 / 200 / 300 / 400 / 500 / 600 / 700 / 800 / 900
+
+  line heights
+  DEFAULT: 1 / 1.2 / 1.4 / 1.6 /
+
+  ---02 COLORS
+  Primary: #e67e22
+  tints:
+  shades:
+  accents:
+  greys: #555
+
+  ---5 SHADOWS
+
+  ---06 BORDER RADIUS
+
+  ---07WHITESPACE
+
+  - SPACING SYSTEM (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+  N
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-style: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
